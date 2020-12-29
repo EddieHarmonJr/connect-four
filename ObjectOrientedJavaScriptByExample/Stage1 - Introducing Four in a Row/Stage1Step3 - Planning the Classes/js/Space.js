@@ -5,5 +5,4 @@ class Space {
     this.id = `space-${x}-${y}`;
     this.token = null;
   }
-
 };
