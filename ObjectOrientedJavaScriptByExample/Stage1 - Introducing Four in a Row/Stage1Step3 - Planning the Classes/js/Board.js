@@ -24,6 +24,6 @@ class Board {
     }
 
     return spaces;
-
   }
+
 };
