@@ -14,6 +14,10 @@ class Game {
     return players;
   }
 
+  get activePlayer() {
+    
+  }
+
   /* Gets game ready for play */
   startGame() {
 
