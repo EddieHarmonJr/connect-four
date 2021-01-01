@@ -29,4 +29,20 @@ class Game {
       this.activePlayer.activeToken.drawHTMLToken();
       this.ready = true;
   }
+
+  /**
+ * Branches code, depending on what key player presses
+ * @param   {Object}    e - Keydown event object
+ */
+  handleKeydown(e) {
+      if (this.ready) {
+          if (e.key === "ArrowLeft") {
+            // move left
+          } else if (e.key === "ArrowRight") {
+            // move right
+          } else if (e.key === "ArrowDown") {
+            //play token
+          }
+      }
+  }
 }
